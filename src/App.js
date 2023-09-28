@@ -31,6 +31,7 @@ function App() {
         defaultChecked={disabled}
         onChange={handleChangeButtonStatus}
       />
+      <label htmlFor="disable-button-checkbox">Disable button</label>
     </div>
   );
 }
