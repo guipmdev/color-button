@@ -10,7 +10,7 @@ on:
     branches: ['main']
 
 env:
-  GIST_ID: 715c62717519f634185af0ebde234992
+  GIST_ID: f415beafbd82e43ad177dd807ee49681
 
 jobs:
   build:
