@@ -26,8 +26,6 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          gist-id: ${{ env.GIST_ID }}
-          token: ${{ secrets.GIST_TOKEN }}
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
