@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" errors="0" time="5.224">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2023-10-04T19:59:49" time="2.616" tests="8">
+    <testcase classname=" button has correct initial color, and updates when clicked" name=" button has correct initial color, and updates when clicked" time="0.159">
+    </testcase>
+    <testcase classname=" initial conditions" name=" initial conditions" time="0.051">
+    </testcase>
+    <testcase classname=" checkbox disables button on first click and enables on second click" name=" checkbox disables button on first click and enables on second click" time="0.05">
+    </testcase>
+    <testcase classname=" disabled button has gray background and reverts to Medium Violet Red" name=" disabled button has gray background and reverts to Medium Violet Red" time="0.036">
+    </testcase>
+    <testcase classname=" clicked disabled button has gray background and reverts to Midnight Blue" name=" clicked disabled button has gray background and reverts to Midnight Blue" time="0.034">
+    </testcase>
+    <testcase classname="spaces before camel-case capital letters works for no inner capital letter" name="spaces before camel-case capital letters works for no inner capital letter" time="0.001">
+    </testcase>
+    <testcase classname="spaces before camel-case capital letters works for one inner capital letter" name="spaces before camel-case capital letters works for one inner capital letter" time="0.001">
+    </testcase>
+    <testcase classname="spaces before camel-case capital letters works for multiple inner capital letters" name="spaces before camel-case capital letters works for multiple inner capital letters" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
