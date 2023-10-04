@@ -23,18 +23,18 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - uses: gaelgirodon/ci-badges-action@v1
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
+          gist-id: ${{ env.GIST_ID }}
+          token: ${{ secrets.GIST_TOKEN }}
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
       - run: npm test
-        env:
-          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
-      - run: rm -rf test/data
-      - uses: ./
+
+      - name: Generate CI Badges
+        uses: gaelgirodon/ci-badges-action@v1
         with:
           gist-id: ${{ env.GIST_ID }}
           token: ${{ secrets.GIST_TOKEN }}
