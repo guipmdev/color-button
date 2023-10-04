@@ -23,7 +23,7 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          gist-id: <gist-id>
+          gist-id: f415beafbd82e43ad177dd807ee49681
           token: ${{ secrets.GIST_TOKEN }}
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
