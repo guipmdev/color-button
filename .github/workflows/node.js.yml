@@ -19,11 +19,12 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - uses: [actions/checkout@v3, GaelGirodon/ci-badges-action@v1.1.0]
+      - uses: actions/checkout@v3
+      - uses: gaelgirodon/ci-badges-action@v1
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          gist-id: f415beafbd82e43ad177dd807ee49681
+          gist-id: ${{ env.GIST_ID }}
           token: ${{ secrets.GIST_TOKEN }}
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
