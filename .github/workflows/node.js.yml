@@ -10,7 +10,7 @@ on:
     branches: ['main']
 
 env:
-  GIST_ID: f415beafbd82e43ad177dd807ee49681
+  GIST_ID: 715c62717519f634185af0ebde234992
 
 jobs:
   build:
@@ -27,9 +27,14 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          gist-id: ${{ env.GIST_ID }}
-          token: ${{ secrets.GIST_TOKEN }}
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
       - run: npm test
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+      - run: rm -rf test/data
+      - uses: ./
+        with:
+          gist-id: ${{ env.GIST_ID }}
+          token: ${{ secrets.GIST_TOKEN }}
