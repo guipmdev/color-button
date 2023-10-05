@@ -93,6 +93,7 @@
   - [✔️ Prerequisites](#️-prerequisites)
   - [📦 Installation](#-installation)
   - [⚙️ Usage](#️-usage)
+  - [🧪 Running tests](#-running-tests)
 - [📄 License](#-license)
 - [👏 Acknowledgments](#-acknowledgments)
 </details>
@@ -101,9 +102,17 @@
 
 ## 📍 Overview
 
-This project is a web application developed in _React_ that
+The **color-button** projectis a web application developed in _React_ that consists of a button and a checkbox. The button allows users to toggle between two colors, Medium Violet Red and Midnight Blue, and the checkbox can disable and enable the button.
+
+The main purpose of this app is to showcase a basic functionality in React with Jest and Testing Library tests.
 
 ## ✨ Features
+
+🎨 **Switch between two colors** at the click of a button
+
+🔛 **Deactivate and reactivate the button** via checkbox
+
+🧪 Project **focused on** Jest and Testing Library **tests**
 
 ## 🤖 Demo
 
@@ -203,6 +212,12 @@ npm run start
 ```
 
 2. Access https://localhost:3000/ to view the application
+
+### 🧪 Running tests
+
+```sh
+npm run test
+```
 
 ## 📄 License
 

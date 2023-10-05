@@ -93,6 +93,7 @@
   - [✔️ Pré-requisitos](#️-pré-requisitos)
   - [📦 Instalação](#-instalação)
   - [⚙️ Utilização](#️-utilização)
+  - [🧪 Executando testes](#-executando-testes)
 - [📄 Licença](#-licença)
 - [👏 Reconhecimentos](#-reconhecimentos)
 </details>
@@ -101,9 +102,17 @@
 
 ## 📍 Visão geral
 
-Esse projeto é uma aplicação web desenvolvida em _React_ que
+O projeto **color-button** é uma aplicação web desenvolvida em _React_ que consiste em um botão e uma caixa de seleção. O botão permite que os usuários alternem entre duas cores, Vermelho Violeta Médio e Azul Meia-Noite, e a caixa de seleção pode desativar ou ativar novamente esse botão.
+
+O principal objetivo é mostrar uma funcionalidade básica em React com testes Jest e Testing Library.
 
 ## ✨ Funcionalidades
+
+🎨 **Alterne entre duas cores** no clique de um botão
+
+🔛 **Desativar e reativar o botão** usando a caixa de seleção
+
+🧪 Projeto **focado em testes** Jest e Testing Library
 
 ## 🤖 Demo
 
@@ -203,6 +212,12 @@ npm run start
 ```
 
 2. Acesse https://localhost:3000/ para visualizar a aplicação
+
+### 🧪 Executando testes
+
+```sh
+npm run test
+```
 
 ## 📄 Licença
 
