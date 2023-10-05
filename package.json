@@ -6,7 +6,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:coverage": "react-scripts test --watchAll=false --reporters='jest-junit'",
+    "test:report": "react-scripts test --reporters='jest-junit' --watchAll=false",
+    "test:coverage": "react-scripts test --coverage --coverageReporters='cobertura' --watchAll=false",
     "eject": "react-scripts eject"
   },
   "dependencies": {
