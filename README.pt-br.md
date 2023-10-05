@@ -47,15 +47,6 @@
     src="https://img.shields.io/endpoint?labelColor=202024&label=cobertura&url=https://gist.githubusercontent.com/guipmdev/f415beafbd82e43ad177dd807ee49681/raw/color-button-cobertura-coverage.json"
     alt="Cobertura dos testes"
   />
-  <a
-    href="https://github.com/guipmdev/color-button/commits/main"
-    title="Visualizar commits do repositório"
-  >
-    <img
-      src="https://img.shields.io/github/last-commit/guipmdev/color-button?labelColor=202024&label=último commit"
-      alt="Último commit"
-    />
-  </a>
   <a href="./LICENSE" title="Visualizar licença do projeto">
     <img
       src="https://img.shields.io/badge/license-MIT-brightgreen?labelColor=202024&label=licen%C3%A7a"
@@ -115,6 +106,8 @@ O principal objetivo é mostrar uma funcionalidade básica em React com testes J
 🧪 Projeto **focado em testes** Jest e Testing Library
 
 ## 🤖 Demo
+
+https://github.com/guipmdev/color-button/assets/136738335/64e40444-013a-42ed-9b18-8f9cadf69c62
 
 ## 🛠 Tecnologias
 
