@@ -1,70 +1,233 @@
-# Getting Started with Create React App
+<!-- ===== HEADER ===== -->
+<p align="right">
+  <img
+    src="https://img.shields.io/badge/lang-en-gray?style=flat-square&labelColor=202024"
+    alt="lang-en"
+  />
+  <a href="./README.pt-br.md" title="Ler o README em português brasileiro">
+    <img
+      src="https://img.shields.io/badge/lang-pt--br-green?style=flat-square&labelColor=202024"
+      alt="lang-pt-br"
+    />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <a
+    href="https://guipmdev-color-button.vercel.app/"
+    title="Go to the web application"
+  >
+    color-button
+  </a>
+</h1>
 
-## Available Scripts
+<p align="center">
+  <img
+    src="https://img.shields.io/github/languages/count/guipmdev/color-button?color=%2304D361&labelColor=202024"
+    alt="Repository language count"
+  />
+  <img
+    src="https://img.shields.io/github/repo-size/guipmdev/color-button?labelColor=202024"
+    alt="Repository size"
+  />
+  <a
+    href="https://github.com/guipmdev/color-button/actions/workflows/node.js.yml"
+    title="View GitHub workflow runs"
+  >
+    <img
+      src="https://img.shields.io/github/actions/workflow/status/guipmdev/color-button/node.js.yml?labelColor=202024&label=Node.js CI"
+      alt="GitHub workflow status"
+    />
+  </a>
+  <img
+    src="https://img.shields.io/endpoint?labelColor=202024&url=https://gist.githubusercontent.com/guipmdev/f415beafbd82e43ad177dd807ee49681/raw/color-button-junit-tests.json"
+    alt="Tests report"
+  />
+  <img
+    src="https://img.shields.io/endpoint?labelColor=202024&url=https://gist.githubusercontent.com/guipmdev/f415beafbd82e43ad177dd807ee49681/raw/color-button-cobertura-coverage.json"
+    alt="Tests coverage"
+  />
+  <a
+    href="https://github.com/guipmdev/color-button/commits/main"
+    title="View repository commits"
+  >
+    <img
+      src="https://img.shields.io/github/last-commit/guipmdev/color-button?labelColor=202024"
+      alt="Last commit"
+    />
+  </a>
+  <a href="./LICENSE" title="View project license">
+    <img
+      src="https://img.shields.io/badge/license-MIT-brightgreen?labelColor=202024"
+      alt="Project license"
+    />
+  </a>
+  <a href="https://bonnie.dev/" title="Go to Bonnie's website">
+    <img
+      src="https://img.shields.io/badge/Layout_by-Bonnie_Schulkin-182734?labelColor=202024"
+      alt="Layout designer"
+    />
+  </a>
+</p>
 
-In the project directory, you can run:
+![Screenshot of the application initial page](./src/assets/images/cover.webp)
 
-### `npm start`
+<p align="center">
+  <a href="https://guipmdev-color-button.vercel.app/"
+    >Go to the web application ↗</a
+  >
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<details>
+  <summary>
+    <h2>📒 Table of Contents</h2>
+  </summary>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [📍 Overview](#-overview)
+- [✨ Features](#-features)
+- [🤖 Demo](#-demo)
+- [🛠 Technologies](#-technologies)
+  - [Website](#website)
+  - [Utils](#utils)
+- [🚀 Getting Started](#-getting-started)
+  - [✔️ Prerequisites](#️-prerequisites)
+  - [📦 Installation](#-installation)
+  - [⚙️ Usage](#️-usage)
+- [📄 License](#-license)
+- [👏 Acknowledgments](#-acknowledgments)
+</details>
 
-### `npm test`
+<!-- ===== PROJECT INFOS ===== -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📍 Overview
 
-### `npm run build`
+This project is a web application developed in _React_ that
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✨ Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🤖 Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠 Technologies
 
-### `npm run eject`
+The following tools were used to build the project:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Website
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p>
+  <a href="https://react.dev/">
+    <img
+      src="https://img.shields.io/badge/React-23272f?style=for-the-badge&logo=React"
+      alt="React"
+    />
+  </a>
+  <a href="https://eslint.org/">
+    <img
+      src="https://img.shields.io/badge/ESLint-101828?style=for-the-badge&logo=ESLint"
+      alt="ESLint"
+    />
+  </a>
+</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p>
+  <a href="https://testing-library.com/">
+    <img
+      src="https://img.shields.io/badge/Testing_Library-242526?style=for-the-badge&logo=testing-library"
+      alt="Testing Library"
+    />
+  </a>
+  <a href="https://www.npmjs.com/package/jest-junit">
+    <img
+      src="https://img.shields.io/badge/jest--junit-gray?style=for-the-badge"
+      alt="jest-junit"
+    />
+  </a>
+</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+_\* See the [<kbd>package.json</kbd>](./package.json) file_
 
-## Learn More
+### Utils
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>
+  <a href="https://git-scm.com/">
+    <img
+      src="https://img.shields.io/badge/Git-f1f1e9?style=for-the-badge&logo=git"
+      alt="Git"
+    />
+  </a>
+  <a href="https://nodejs.org/">
+    <img
+      src="https://img.shields.io/badge/Node.js-233056?style=for-the-badge&logo=node.js"
+      alt="Node.js"
+    />
+  </a>
+  <a href="https://code.visualstudio.com/">
+    <img
+      src="https://img.shields.io/badge/VSCode-005293?style=for-the-badge&logo=visual-studio-code"
+      alt="VSCode"
+    />
+  </a>
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Getting Started
 
-### Code Splitting
+### ✔️ Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Before you begin, ensure that you have the following tools installed on your machine: [Git](https://git-scm.com/downloads), [Node.js](https://nodejs.org/en/download). It's also good to have an editor to work with the code, such as [VSCode](https://code.visualstudio.com/Download).
 
-### Analyzing the Bundle Size
+### 📦 Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repository:
 
-### Making a Progressive Web App
+```sh
+git clone https://github.com/guipmdev/color-button/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Change to the project directory:
 
-### Advanced Configuration
+```sh
+cd color-button
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Install the dependencies:
 
-### Deployment
+```sh
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### ⚙️ Usage
 
-### `npm run build` fails to minify
+1. Start the web application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```sh
+npm run start
+```
+
+2. Access https://localhost:3000/ to view the application
+
+## 📄 License
+
+This project is licensed under the terms of the `MIT` license. See the
+[LICENSE](./LICENSE) file for additional info.
+
+## 👏 Acknowledgments
+
+> - Many thanks to [Bonnie Schulkin](https://bonnie.dev/) for the layout and tips when putting this project together
+
+<!-- ===== FOOTER ===== -->
+
+---
+
+<p align="center">
+  Made with 💙 by
+  <a href="https://www.guipm.dev/"> @guipm.dev </a>
+  - Feel free to
+  <a href="mailto:guipm.dev@gmail.com">contact me</a>!
+</p>
+
+<br />
+
+<p align="center">
+  <a href="#top">
+    <b>↑&nbsp;&nbsp; Return to the top &nbsp;&nbsp;↑</b>
+  </a>
+</p>
