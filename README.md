@@ -47,15 +47,6 @@
     src="https://img.shields.io/endpoint?labelColor=202024&url=https://gist.githubusercontent.com/guipmdev/f415beafbd82e43ad177dd807ee49681/raw/color-button-cobertura-coverage.json"
     alt="Tests coverage"
   />
-  <a
-    href="https://github.com/guipmdev/color-button/commits/main"
-    title="View repository commits"
-  >
-    <img
-      src="https://img.shields.io/github/last-commit/guipmdev/color-button?labelColor=202024"
-      alt="Last commit"
-    />
-  </a>
   <a href="./LICENSE" title="View project license">
     <img
       src="https://img.shields.io/badge/license-MIT-brightgreen?labelColor=202024"
@@ -115,6 +106,8 @@ The main purpose of this app is to showcase a basic functionality in React with 
 🧪 Project **focused on** Jest and Testing Library **tests**
 
 ## 🤖 Demo
+
+https://github.com/guipmdev/color-button/assets/136738335/64e40444-013a-42ed-9b18-8f9cadf69c62
 
 ## 🛠 Technologies
 
