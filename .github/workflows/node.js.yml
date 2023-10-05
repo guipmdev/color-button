@@ -31,7 +31,6 @@ jobs:
       - run: npm ci
       - run: npm run test:coverage
 
-      - uses: ./
       - name: Generate CI Badges
         uses: gaelgirodon/ci-badges-action@v1
         with:
