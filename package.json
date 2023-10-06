@@ -1,6 +1,6 @@
 {
   "name": "color-button",
-  "description": "",
+  "description": "Web app to toggle between colors and learn testing basics",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
