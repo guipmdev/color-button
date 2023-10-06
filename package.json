@@ -6,22 +6,22 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:report": "react-scripts test --reporters='jest-junit' --watchAll=false",
-    "test:coverage": "react-scripts test --coverage --coverageReporters='cobertura' --watchAll=false",
+    "test:coverage": "react-scripts test --reporters=jest-junit --reporters=default --coverage --coverageReporters=cobertura --coverageReporters=lcov --watchAll=false ",
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "eslint-plugin-jest-dom": "^5.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
-  "devDependencies": {
-    "jest-junit": "^16.0.0"
+    "jest-junit": "^16.0.0",
+    "react-scripts": "5.0.1"
   },
   "browserslist": {
     "production": [
