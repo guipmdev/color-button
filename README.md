@@ -131,16 +131,22 @@ The following tools were used to build the project:
 </p>
 
 <p>
-  <a href="https://testing-library.com/">
+  <a href="https://jestjs.io/">
     <img
-      src="https://img.shields.io/badge/Testing_Library-242526?style=for-the-badge&logo=testing-library"
-      alt="Testing Library"
+      src="https://img.shields.io/badge/Jest-242526?style=for-the-badge&logo=jest"
+      alt="Jest"
     />
   </a>
   <a href="https://www.npmjs.com/package/jest-junit">
     <img
       src="https://img.shields.io/badge/jest--junit-gray?style=for-the-badge"
       alt="jest-junit"
+    />
+  </a>
+  <a href="https://testing-library.com/">
+    <img
+      src="https://img.shields.io/badge/Testing_Library-242526?style=for-the-badge&logo=testing-library"
+      alt="Testing Library"
     />
   </a>
 </p>
